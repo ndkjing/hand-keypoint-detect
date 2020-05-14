@@ -1,2 +1,3 @@
 # hand-keypoint-detect
 直接在python中使用谷歌mediapipe的手关键点检测模型
+python detect_on_camera.py  会打开摄像头进行检测，gasture_utils是利用关键点设置一些规则进行手势分类
