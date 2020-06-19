@@ -8,6 +8,10 @@ except:
 	import tensorflow as tf
 	import tensorflow.lite as tflite
 
+print(tf.__version__)
+print(cv2.__version__)
+print(csv.__version__)
+print(np.__version__)
 class HandTracker():
     r"""
     Class to use Google's Mediapipe HandTracking pipeline from Python.

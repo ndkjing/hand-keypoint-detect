@@ -2,7 +2,7 @@ import platform
 sysstr = platform.system()
 if (sysstr == "Windows"):
     print("Call Windows tasks")
-elif (sysstr == "Linux"):   # 树莓派也是Linux
+elif (sysstr == "Linux"):   # 树莓派上也是Linux
     print("Call Linux tasks")
 else:
     print("other System tasks")
@@ -14,7 +14,6 @@ import cv2
 from collections import deque
 
 from hand_tracker import HandTracker
-
 from gasture_utils.determine_gasture import create_known_finger_poses, determine_position, get_position_name_with_pose_id
 from gasture_utils.FingerPoseEstimate import FingerPoseEstimate
 
