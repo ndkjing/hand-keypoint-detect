@@ -18,7 +18,7 @@ gasture_utils是根据关键点设置一些规则进行手势分类，该方法�
 
 
 检测图像
-![efficientd4](https://github.com/ndkjing/detection_keras_tf/blob/master/eval_infer/images_out/efficientdet4.png)
+![show detect image](https://github.com/ndkjing/hand-keypoint-detect/blob/master/images/show.png)
 
 
 
